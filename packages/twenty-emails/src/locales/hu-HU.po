@@ -19,11 +19,6 @@ msgstr ""
 "X-Crowdin-File-ID: 27\n"
 
 #. js-lingui-explicit-id
-#: src/emails/test.email.tsx
-msgid "Test email"
-msgstr "Teszt e-mail"
-
-#. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
 msgid "Suspended Workspace"
 msgstr "Felfüggesztett munkaterület"
@@ -63,6 +58,11 @@ msgid "Update your subscription"
 msgstr "Előfizetés frissítése"
 
 #. js-lingui-explicit-id
+#: src/emails/test.email.tsx
+msgid "Test email"
+msgstr "Teszt e-mail"
+
+#. js-lingui-explicit-id
 #: src/emails/validate-approved-access-domain.email.tsx
 #: src/emails/validate-approved-access-domain.email.tsx
 msgid "Validate domain"
@@ -89,26 +89,6 @@ msgid "Server administrator access changed"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "Password updated"
-msgstr "Jelszó frissítve"
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "This is a confirmation that password for your account ({email}) was successfully changed on {formattedDate}."
-msgstr "Ez egy megerősítés arról, hogy fiókja jelszavát ({email}) sikeresen megváltoztatták {formattedDate} napján."
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "If you did not initiate this change, please contact your workspace owner immediately."
-msgstr "Amennyiben Ön nem kezdeményezte ezt a változtatást, kérjük azonnal lépjen kapcsolatba a munkaterület tulajdonosával."
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "Connect to Twenty"
-msgstr "Csatlakozás a Twentyhez"
-
-#. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
 msgid "Confirm your new email address"
 msgstr "Erősítsd meg az új e-mail címed"
@@ -127,6 +107,26 @@ msgstr "Új e-mail megerősítése"
 #: src/emails/send-email-verification-link.email.tsx
 msgid "Verify Email"
 msgstr "Email ellenőrzése"
+
+#. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "Password updated"
+msgstr "Jelszó frissítve"
+
+#. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "This is a confirmation that password for your account ({email}) was successfully changed on {formattedDate}."
+msgstr "Ez egy megerősítés arról, hogy fiókja jelszavát ({email}) sikeresen megváltoztatták {formattedDate} napján."
+
+#. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "If you did not initiate this change, please contact your workspace owner immediately."
+msgstr "Amennyiben Ön nem kezdeményezte ezt a változtatást, kérjük azonnal lépjen kapcsolatba a munkaterület tulajdonosával."
+
+#. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "Connect to Twenty"
+msgstr "Csatlakozás a Twentyhez"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
@@ -169,6 +169,16 @@ msgid "This link is only valid for the next {duration}. If the link does not wor
 msgstr "Ez a hivatkozás csak a következő {duration} ideig érvényes. Ha a hivatkozás nem működik, használhatja közvetlenül a belépés ellenőrző hivatkozását:"
 
 #. js-lingui-explicit-id
+#: src/components/WhatIsTwenty.tsx
+msgid "What is Twenty?"
+msgstr "Mi az a Twenty?"
+
+#. js-lingui-explicit-id
+#: src/components/WhatIsTwenty.tsx
+msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
+msgstr "Ez egy CRM, egy szoftver, amely segíti a vállalkozásokat az ügyféladataik és kapcsolataik hatékony kezelésében."
+
+#. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Deleted Workspace"
 msgstr "Törölt munkaterület"
@@ -192,16 +202,6 @@ msgstr "Ha újra szeretné használni a Twenty-t, létrehozhat egy új munkater�
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Create a new workspace"
 msgstr "Hozzon létre új munkaterületet"
-
-#. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "What is Twenty?"
-msgstr "Mi az a Twenty?"
-
-#. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
-msgstr "Ez egy CRM, egy szoftver, amely segíti a vállalkozásokat az ügyféladataik és kapcsolataik hatékony kezelésében."
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
